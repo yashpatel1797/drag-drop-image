@@ -40,3 +40,8 @@ Part 1
 (Initally decided to use 'react-beautiful-dnd' but but due to compatibility issues with React 18, an alternative solution was found.)
 - After checking drag and drop works correctly implemented Image preview on click. and on press of 'ESC' preview will be closed.
 
+Part 2
+- Install msw to implement local server.
+- created mock server and handlers.
+- Was getting error about [Browser: Cannot read properties of undefined (reading 'url')](https://github.com/mswjs/msw/issues/2053) to solve it down graded msw but still it might still occurs some time.
+- Stored data in browser localStorage.
