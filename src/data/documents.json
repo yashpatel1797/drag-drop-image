@@ -1,0 +1,8 @@
+[
+  { "id": 1, "type": "bank-draft", "title": "Bank Draft", "position": 0, "url": "https://images.unsplash.com/photo-1640384974326-3e72680e0fb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMTkzNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxNDMwNDF8&ixlib=rb-4.0.3&q=85" },
+  { "id": 2, "type": "bill-of-lading", "title": "Bill of Lading", "position": 1, "url": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" },
+  { "id": 3, "type": "invoice", "title": "Invoice", "position": 2, "url": "https://images.unsplash.com/photo-1546190255-451a91afc548?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" },
+  { "id": 4, "type": "bank-draft-2", "title": "Bank Draft 2", "position": 3, "url": "https://images.unsplash.com/uploads/141319662617846f3b4c9/1677b57d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMTkzNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxNDMzNjB8&ixlib=rb-4.0.3&q=85" },
+  { "id": 5, "type": "bill-of-lading-2", "title": "Bill of Lading 2", "position": 4, "url": "https://images.unsplash.com/photo-1601833875116-b22a8ca45353?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMTkzNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxNDM0MzN8&ixlib=rb-4.0.3&q=85" }
+]
+  
