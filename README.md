@@ -45,3 +45,8 @@ Part 2
 - created mock server and handlers.
 - Was getting error about [Browser: Cannot read properties of undefined (reading 'url')](https://github.com/mswjs/msw/issues/2053) to solve it down graded msw but still it might still occurs some time.
 - Stored data in browser localStorage.
+
+Part 3
+- Created Post API on handlers to make API call from frontend every 5 seconds store data in localStorage as well.
+- Write useEffect which will make api call from frontend every 5 seconds. if data is changed then update them in localStorage.
+- Implemented Last save timer to show timing of last save change.

@@ -14,5 +14,17 @@ const fetchData = () => {
 export const handlers = [
   http.get('/api/data', (resolver) => {
     return HttpResponse.json(fetchData());
+  }),
+
+  http.post('/api/save', async ({ request }) => {
+    const newData = await request.json();
+
+    if (JSON.stringify(newData) === JSON.stringify(fetchData())) {
+      return  HttpResponse.json({Updated: false, message: "No changes has been done."});
+    }
+
+    localStorage.setItem('data', JSON.stringify(newData));
+
+    return HttpResponse.json({newData, Updated: true});
   })
 ]
