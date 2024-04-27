@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { ImageCard } from './components/ImageCard';
 import { SortableContext, arrayMove, rectSortingStrategy } from '@dnd-kit/sortable';

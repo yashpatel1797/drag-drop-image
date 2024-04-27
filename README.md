@@ -50,3 +50,8 @@ Part 3
 - Created Post API on handlers to make API call from frontend every 5 seconds store data in localStorage as well.
 - Write useEffect which will make api call from frontend every 5 seconds. if data is changed then update them in localStorage.
 - Implemented Last save timer to show timing of last save change.
+
+Part 5
+- Added API end point for Adding new item to the list ('POST /api/data').
+- End point to Remove item from list  ('DELETE /api/data/:id').
+- To update existing item from list use ('PUT /api/data/:id').
